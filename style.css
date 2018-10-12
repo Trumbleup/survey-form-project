@@ -1,4 +1,93 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
 body {
 	text-align: center;
 }
+
+#main {
+	background-color: #8C9293;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 1000px;
+}
+
+#form {
+	background-color: #D9ECF2;
+	padding-top: 20px;
+	margin-top: 50px;
+	width: 50%;
+	height: 900px;
+}
+
+#title {
+	margin: 20px;
+}
+
+#description {
+	margin: 20px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+#survey-form div{
+	margin: 10px;
+
+}
+
+.closing {
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#submit {
+	margin: 30px;
+	padding: 5px;
+}
+
+#footer {
+	background-color: #3C4A4F;
+	font-size: 20px;
+	padding: 20px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	#form {
+		height: 90%;
+		width: 70%;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+	#form {
+		height: 90%;
+		width: 70%;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	#form .text{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#form {
+		height: 90%;
+		width: 80%;
+	}
+
+}
+
+
 
